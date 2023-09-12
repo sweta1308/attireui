@@ -1,0 +1,30 @@
+.component {
+  text-align: center;
+  padding: 0 90px 0 50px;
+}
+
+.components ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.components ul li {
+  list-style: none;
+  background-color: var(--primary-color-lighter);
+  padding: 15px;
+  cursor: pointer;
+}
+
+.components ul li:hover {
+  background-color: var(--primary-color-light);
+}
+
+.components ul li a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-weight: 600;
+  padding: 0 10px;
+  font-size: 18px;
+}
