@@ -3,8 +3,9 @@ import { ImageAvatar } from "../../components/Avatar/ImageAvatar/ImageAvatar";
 import { NamedAvatar } from "../../components/Avatar/NamedAvatar/NamedAvatar";
 
 export const AvatarDoc = () => {
+  document.title = "Attire UI | Avatar";
   return (
-    <div>
+    <div className="docs">
       <h1>Avatar</h1>
       <p>
         <span className="colored">Avatar</span> is a small profile image which
@@ -12,7 +13,11 @@ export const AvatarDoc = () => {
         (named avatar).
       </p>
 
-      <h2>Props Available</h2>
+      <h2>Examples</h2>
+
+      <h2>Image Avatar</h2>
+
+      <h3>Props Available</h3>
       <p>
         <strong>imgSrc: </strong>This provides the URL for the image which is
         used.
@@ -29,10 +34,6 @@ export const AvatarDoc = () => {
         <strong>height: </strong>You can give the height of the image as per
         your convenience.
       </p>
-
-      <h2>Examples</h2>
-
-      <h3>Image Avatar</h3>
 
       <ImageAvatar
         imgSrc="https://res.cloudinary.com/sweta-agarwalla/image/upload/v1694326384/photo-1438761681033-6461ffad8d80_ib0x18.jpg"
@@ -59,7 +60,29 @@ export const AvatarDoc = () => {
         ></iframe>
       </code>
 
-      <h3>Named Avatar</h3>
+      <h2>Named Avatar</h2>
+
+      <h3>Props Available</h3>
+      <p>
+        <strong>text: </strong>Here, you can enter the text you want to see in
+        the avatar.
+      </p>
+      <p>
+        <strong>bgColor: </strong>This is used to add the backgroundColor of
+        one's choice.
+      </p>
+      <p>
+        <strong>textColor: </strong>This is used to add the textColor of one's
+        choice.
+      </p>
+      <p>
+        <strong>width: </strong>You can give the width of the image as per your
+        convenience.
+      </p>
+      <p>
+        <strong>height: </strong>You can give the height of the image as per
+        your convenience.
+      </p>
 
       <NamedAvatar
         text="SA"
