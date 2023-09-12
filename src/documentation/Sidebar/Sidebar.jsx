@@ -22,7 +22,9 @@ export const Sidebar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">Badge</NavLink>
+            <NavLink to="/docs/badge" style={activeStyles}>
+              Badge
+            </NavLink>
           </li>
           <li>
             <NavLink to="/">Button</NavLink>
