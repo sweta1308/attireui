@@ -22,16 +22,16 @@ export const Components = () => {
               <Link to="/docs/button">Buttons</Link>
             </li>
             <li>
-              <Link>Card</Link>
+              <Link to="/docs/card">Card</Link>
             </li>
             <li>
-              <Link>Headings</Link>
+              <Link to="/docs/heading">Headings</Link>
             </li>
             <li>
-              <Link>Image</Link>
+              <Link to="/docs/image">Image</Link>
             </li>
             <li>
-              <Link>Text</Link>
+              <Link to="/docs/typography">Typography</Link>
             </li>
           </ul>
         </div>
