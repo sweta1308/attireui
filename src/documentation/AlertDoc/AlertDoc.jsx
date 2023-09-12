@@ -2,8 +2,9 @@
 import { Alert } from "../../components/Alert/Alert";
 
 export const AlertDoc = () => {
+  document.title = "Attire UI | Alert";
   return (
-    <>
+    <div className="docs">
       <h1>Alert</h1>
       <p>
         <span className="colored">Alerts</span> are a useful tool for drawing
@@ -44,6 +45,6 @@ export const AlertDoc = () => {
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
       </code>
-    </>
+    </div>
   );
 };
