@@ -9,6 +9,10 @@ import {
   AvatarDoc,
   BadgeDoc,
   ButtonDoc,
+  CardDoc,
+  HeadingDoc,
+  ImageDoc,
+  TypographyDoc,
 } from "./documentation";
 
 function App() {
@@ -32,6 +36,10 @@ function App() {
             <Route path="/docs/avatar" element={<AvatarDoc />} />
             <Route path="/docs/badge" element={<BadgeDoc />} />
             <Route path="/docs/button" element={<ButtonDoc />} />
+            <Route path="/docs/card" element={<CardDoc />} />
+            <Route path="/docs/heading" element={<HeadingDoc />} />
+            <Route path="/docs/image" element={<ImageDoc />} />
+            <Route path="/docs/typography" element={<TypographyDoc />} />
           </Routes>
         </div>
       </div>
