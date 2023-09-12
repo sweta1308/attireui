@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import { ImageAvatar } from "../../components/Avatar/ImageAvatar/ImageAvatar";
-import { NamedAvatar } from "../../components/Avatar/NamedAvatar/NamedAvatar";
+import { ImageAvatar, NamedAvatar } from "../../components";
 
 export const AvatarDoc = () => {
   document.title = "Attire UI | Avatar";
