@@ -1,0 +1,24 @@
+.heading {
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.x-large {
+  font-size: 44px;
+}
+
+.large {
+  font-size: 36px;
+}
+
+.medium {
+  font-size: 24px;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.x-small {
+  font-size: 12px;
+}
