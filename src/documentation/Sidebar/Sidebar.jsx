@@ -32,16 +32,24 @@ export const Sidebar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">Card</NavLink>
+            <NavLink to="/docs/card" style={activeStyles}>
+              Card
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/">Heading</NavLink>
+            <NavLink to="/docs/heading" style={activeStyles}>
+              Heading
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/">Image</NavLink>
+            <NavLink to="/docs/image" style={activeStyles}>
+              Image
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/">Typography</NavLink>
+            <NavLink to="/docs/typography" style={activeStyles}>
+              Typography
+            </NavLink>
           </li>
         </ul>
       </div>
