@@ -1,9 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import { MessageOutlined, ShoppingCart } from "@mui/icons-material";
 import { avatar } from "../../assets";
-import { ImageAvatar } from "../../components/Avatar/ImageAvatar/ImageAvatar";
-import { IconBadge } from "../../components/Badge/IconBadge/IconBadge";
-import { StatusBadge } from "../../components/Badge/StatusBadge/StatusBadge";
+import { ImageAvatar, IconBadge, StatusBadge } from "../../components";
 
 export const BadgeDoc = () => {
   document.title = "Attire UI | Badge";
