@@ -1,0 +1,11 @@
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.icon-btn:hover {
+  color: var(--primary-color);
+}
