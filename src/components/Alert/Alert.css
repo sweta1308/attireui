@@ -1,0 +1,28 @@
+.alert {
+  width: 100%;
+  color: var(--white-color);
+  padding: 15px 10px;
+  position: relative;
+  width: 400px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.close-icon {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--gray-text-light);
+}
+
+.alert .alert-text {
+  display: flex;
+  align-items: center;
+}
+
+.alert .alert-text span {
+  margin-left: 10px;
+}
