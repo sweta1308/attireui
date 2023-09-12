@@ -1,0 +1,14 @@
+.secondary-btn {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.secondary-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
