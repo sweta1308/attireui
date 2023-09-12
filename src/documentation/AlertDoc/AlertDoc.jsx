@@ -4,7 +4,7 @@ import { Alert } from "../../components";
 export const AlertDoc = () => {
   document.title = "Attire UI | Alert";
   return (
-    <div className="docs">
+    <div>
       <h1>Alert</h1>
       <p>
         <span className="colored">Alerts</span> are a useful tool for drawing
@@ -17,20 +17,24 @@ export const AlertDoc = () => {
         <span className="colored">success</span>,{" "}
         <span className="colored">warning</span>,{" "}
         <span className="colored">info</span> and{" "}
-        <span className="colored">error</span>. Any level of severity that you
-        select will determine the alert's appearance.
+        <span className="colored">error</span>. Any level of severity that is
+        selected will determine the alert's appearance.
       </p>
       <p>
         <strong>message: </strong>This prop can be used to input any message
-        that we wish to display to the user.
+        that should be displayed to the user.
       </p>
 
       <h2>Examples</h2>
 
-      <Alert severity="success" message="Success Notification" />
-      <Alert severity="warning" message="Warning Notification" />
-      <Alert severity="info" message="Info Notification" />
-      <Alert severity="error" message="Error Notification" />
+      <div className="docs">
+        <div>
+          <Alert severity="success" message="Success Notification" />
+          <Alert severity="warning" message="Warning Notification" />
+          <Alert severity="info" message="Info Notification" />
+          <Alert severity="error" message="Error Notification" />
+        </div>
+      </div>
 
       <code>
         <iframe
