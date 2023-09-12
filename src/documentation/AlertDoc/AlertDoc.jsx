@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import { Alert } from "../../components/Alert/Alert";
+import { Alert } from "../../components";
 
 export const AlertDoc = () => {
   document.title = "Attire UI | Alert";
