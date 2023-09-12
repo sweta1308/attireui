@@ -1,12 +1,15 @@
 import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
-import { NavBar } from "./documentation/Navbar/Navbar";
 import { Home } from "./pages/Home/Home";
 import { Components } from "./pages/Components/Components";
-import { Sidebar } from "./documentation/Sidebar/Sidebar";
-import { AlertDoc } from "./documentation/AlertDoc/AlertDoc";
-import { AvatarDoc } from "./documentation/AvatarDoc/AvatarDoc";
-import { BadgeDoc } from "./documentation/BadgeDoc/BadgeDoc";
+import {
+  NavBar,
+  Sidebar,
+  AlertDoc,
+  AvatarDoc,
+  BadgeDoc,
+  ButtonDoc,
+} from "./documentation";
 
 function App() {
   const location = useLocation();
@@ -28,6 +31,7 @@ function App() {
             <Route path="/docs/alert" element={<AlertDoc />} />
             <Route path="/docs/avatar" element={<AvatarDoc />} />
             <Route path="/docs/badge" element={<BadgeDoc />} />
+            <Route path="/docs/button" element={<ButtonDoc />} />
           </Routes>
         </div>
       </div>
