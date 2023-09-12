@@ -1,0 +1,13 @@
+.link-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+.link-btn a {
+  color: var(--primary-color);
+}
+
+.link-btn a:hover {
+  text-decoration: none;
+}
