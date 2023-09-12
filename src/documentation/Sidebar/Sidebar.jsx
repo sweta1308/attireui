@@ -27,7 +27,9 @@ export const Sidebar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">Button</NavLink>
+            <NavLink to="/docs/button" style={activeStyles}>
+              Button
+            </NavLink>
           </li>
           <li>
             <NavLink to="/">Card</NavLink>
