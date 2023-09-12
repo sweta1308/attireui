@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { NavBar } from "./documentation/Navbar/Navbar";
+import { Home } from "./pages/Home/Home";
+import { Components } from "./pages/Components/Components";
+import { Sidebar } from "./documentation/Sidebar/Sidebar";
+import { AlertDoc } from "./documentation/AlertDoc/AlertDoc";
+import { AvatarDoc } from "./documentation/AvatarDoc/AvatarDoc";
 
 function App() {
+  const location = useLocation();
+  const showSidebar = !(
+    location.pathname === "/" || location.pathname === "/components"
+  );
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <div
+        className="page-content"
+        style={{ display: showSidebar ? "flex" : "" }}
+      >
+        {showSidebar && <Sidebar />}
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/components" element={<Components />} />
+            <Route path="/docs/alert" element={<AlertDoc />} />
+            <Route path="/docs/avatar" element={<AvatarDoc />} />
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }
