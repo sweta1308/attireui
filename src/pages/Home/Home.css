@@ -1,0 +1,120 @@
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.content div {
+  width: 550px;
+}
+
+.content div h1 {
+  font-size: 46px;
+}
+
+.content div h1 span {
+  color: var(--primary-color);
+  font-family: var(--font-2);
+}
+
+.content div p {
+  color: var(--gray-text);
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin-bottom: 70px;
+}
+
+.content div button {
+  font-size: 16px;
+  width: 130px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 15px 20px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.content div button::after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 15px;
+  transition: 0.3s;
+}
+
+.content div button:hover {
+  padding-left: 0px;
+}
+
+.content div button:hover::after {
+  opacity: 1;
+  right: 10px;
+}
+
+.content img {
+  width: 350px;
+}
+
+.content div a {
+  border: 1px solid var(--primary-color);
+  padding: 13px 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+  border-radius: 4px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.content div a::after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 13px;
+  right: -10px;
+  transition: 0.3s;
+}
+
+.content div a:hover {
+  padding-left: 10px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.content div a:hover::after {
+  opacity: 1;
+  right: 5px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 90px 0 60px;
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+  width: 270px;
+  background-color: var(--white-color);
+  box-sizing: border-box;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: var(--border-radius-2);
+  box-shadow: 0 0 20px rgba(114, 114, 114, 0.3);
+}
+
+.card-one .fa-solid,
+.card-two .fa-regular,
+.card-three .fa-solid,
+.card-four .fa-solid {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
