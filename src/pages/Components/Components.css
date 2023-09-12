@@ -28,3 +28,23 @@
   padding: 0 10px;
   font-size: 18px;
 }
+
+@media (max-width: 800px) {
+  .component {
+    padding: 0 40px 0 20px;
+  }
+
+  .components ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .component {
+    padding: 0 30px 0 0px;
+  }
+
+  .components ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
