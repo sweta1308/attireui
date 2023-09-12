@@ -1,0 +1,13 @@
+.primary-btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin: 0 10px;
+}
+
+.primary-btn:hover {
+  background-color: var(--primary-color-dark);
+}
