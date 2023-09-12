@@ -1,0 +1,20 @@
+.floating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 10px;
+  color: var(--white-color);
+  margin: 0 10px;
+  background-color: var(--primary-color);
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.floating:hover {
+  background-color: var(--primary-color-dark);
+}
