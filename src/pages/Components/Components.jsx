@@ -16,7 +16,7 @@ export const Components = () => {
               <Link to="/docs/avatar">Avatar</Link>
             </li>
             <li>
-              <Link>Badge</Link>
+              <Link to="/docs/badge">Badge</Link>
             </li>
             <li>
               <Link>Buttons</Link>
