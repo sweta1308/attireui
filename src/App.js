@@ -6,6 +6,7 @@ import { Components } from "./pages/Components/Components";
 import { Sidebar } from "./documentation/Sidebar/Sidebar";
 import { AlertDoc } from "./documentation/AlertDoc/AlertDoc";
 import { AvatarDoc } from "./documentation/AvatarDoc/AvatarDoc";
+import { BadgeDoc } from "./documentation/BadgeDoc/BadgeDoc";
 
 function App() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function App() {
             <Route path="/components" element={<Components />} />
             <Route path="/docs/alert" element={<AlertDoc />} />
             <Route path="/docs/avatar" element={<AvatarDoc />} />
+            <Route path="/docs/badge" element={<BadgeDoc />} />
           </Routes>
         </div>
       </div>
