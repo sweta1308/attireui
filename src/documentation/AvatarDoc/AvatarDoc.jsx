@@ -4,7 +4,7 @@ import { ImageAvatar, NamedAvatar } from "../../components";
 export const AvatarDoc = () => {
   document.title = "Attire UI | Avatar";
   return (
-    <div className="docs">
+    <div>
       <h1>Avatar</h1>
       <p>
         <span className="colored">Avatar</span> is a small profile image which
@@ -26,24 +26,26 @@ export const AvatarDoc = () => {
         used, and it will be used as an alt attribute.
       </p>
       <p>
-        <strong>width: </strong>You can give the width of the image as per your
+        <strong>width: </strong>Width of the image can be used as per
         convenience.
       </p>
       <p>
-        <strong>height: </strong>You can give the height of the image as per
-        your convenience.
+        <strong>height: </strong>Height of the image can be used as per
+        convenience.
       </p>
 
-      <ImageAvatar
-        imgSrc="https://res.cloudinary.com/sweta-agarwalla/image/upload/v1694326384/photo-1438761681033-6461ffad8d80_ib0x18.jpg"
-        name="girl avatar"
-        width="6rem"
-        height="6rem"
-      />
-      <ImageAvatar
-        imgSrc="https://res.cloudinary.com/sweta-agarwalla/image/upload/v1694326534/photo-1524250502761-1ac6f2e30d43_j0ka56.jpg"
-        name="avatar"
-      />
+      <div className="docs">
+        <ImageAvatar
+          imgSrc="https://res.cloudinary.com/sweta-agarwalla/image/upload/v1694326384/photo-1438761681033-6461ffad8d80_ib0x18.jpg"
+          name="girl avatar"
+          width="6rem"
+          height="6rem"
+        />
+        <ImageAvatar
+          imgSrc="https://res.cloudinary.com/sweta-agarwalla/image/upload/v1694326534/photo-1524250502761-1ac6f2e30d43_j0ka56.jpg"
+          name="avatar"
+        />
+      </div>
 
       <code>
         <iframe
@@ -63,8 +65,8 @@ export const AvatarDoc = () => {
 
       <h3>Props Available</h3>
       <p>
-        <strong>text: </strong>Here, you can enter the text you want to see in
-        the avatar.
+        <strong>text: </strong>Here, the text to be shown in the avatar is
+        entered.
       </p>
       <p>
         <strong>bgColor: </strong>This is used to add the backgroundColor of
@@ -75,21 +77,23 @@ export const AvatarDoc = () => {
         choice.
       </p>
       <p>
-        <strong>width: </strong>You can give the width of the image as per your
+        <strong>width: </strong>Width of the image can be used as per
         convenience.
       </p>
       <p>
-        <strong>height: </strong>You can give the height of the image as per
-        your convenience.
+        <strong>height: </strong>Height of the image can be used as per
+        convenience.
       </p>
 
-      <NamedAvatar
-        text="SA"
-        bgColor="rgb(14, 108, 248)"
-        width="7rem"
-        height="7rem "
-      />
-      <NamedAvatar text="HW" />
+      <div className="docs">
+        <NamedAvatar
+          text="SA"
+          bgColor="rgb(14, 108, 248)"
+          width="3rem"
+          height="3rem "
+        />
+        <NamedAvatar text="HW" />
+      </div>
 
       <code>
         <iframe
