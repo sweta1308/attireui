@@ -19,7 +19,7 @@ export const Components = () => {
               <Link to="/docs/badge">Badge</Link>
             </li>
             <li>
-              <Link>Buttons</Link>
+              <Link to="/docs/button">Buttons</Link>
             </li>
             <li>
               <Link>Card</Link>
