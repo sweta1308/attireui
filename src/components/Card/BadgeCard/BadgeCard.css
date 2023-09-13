@@ -1,0 +1,13 @@
+.badge-card {
+  position: relative;
+}
+
+.text-badge {
+  position: absolute;
+  z-index: 2;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  top: 15px;
+  left: 25px;
+  padding: 5px;
+}
