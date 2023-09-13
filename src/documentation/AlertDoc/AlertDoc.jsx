@@ -5,6 +5,11 @@ export const AlertDoc = () => {
   document.title = "Attire UI | Alert";
   return (
     <div>
+      <div className="header-text">
+        *Every component has <span className="colored">styles</span> props which
+        will contain all the styles according to the user preferences and it
+        will take the styles in the form of an object.
+      </div>
       <h1>Alert</h1>
       <p>
         <span className="colored">Alerts</span> are a useful tool for drawing
