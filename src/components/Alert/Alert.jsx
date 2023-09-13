@@ -7,7 +7,7 @@ import {
 } from "@mui/icons-material";
 import "./Alert.css";
 
-export const Alert = ({ severity = "success", message }) => {
+export const Alert = ({ severity = "success", message, styles }) => {
   let alertIcon = <CheckCircle />;
   let alertColor = "var(--green)";
 
@@ -23,7 +23,7 @@ export const Alert = ({ severity = "success", message }) => {
   }
 
   return (
-    <div className="alert" style={{ backgroundColor: alertColor }}>
+    <div className="alert" style={{ backgroundColor: alertColor, ...styles }}>
       <Close className="close-icon" />
       <div className="alert-text">
         {alertIcon} <span>{message}</span>
