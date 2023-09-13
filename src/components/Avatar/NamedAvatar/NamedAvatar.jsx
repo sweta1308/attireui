@@ -1,6 +1,13 @@
 import "./NamedAvatar.css";
 
-export const NamedAvatar = ({ text, bgColor, textColor, width, height }) => {
+export const NamedAvatar = ({
+  text,
+  bgColor,
+  textColor,
+  width,
+  height,
+  styles,
+}) => {
   return (
     <>
       <span
@@ -10,6 +17,7 @@ export const NamedAvatar = ({ text, bgColor, textColor, width, height }) => {
           color: textColor ? textColor : "#fff",
           width: width ? width : "4rem",
           height: height ? height : "4rem",
+          ...styles,
         }}
       >
         {text}
