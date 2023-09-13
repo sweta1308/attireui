@@ -5,6 +5,11 @@ export const AvatarDoc = () => {
   document.title = "Attire UI | Avatar";
   return (
     <div>
+      <div className="header-text">
+        *Every component has <span className="colored">styles</span> props which
+        will contain all the styles according to the user preferences and it
+        will take the styles in the form of an object.
+      </div>
       <h1>Avatar</h1>
       <p>
         <span className="colored">Avatar</span> is a small profile image which
@@ -12,10 +17,7 @@ export const AvatarDoc = () => {
         (named avatar).
       </p>
 
-      <h2>Examples</h2>
-
       <h2>Image Avatar</h2>
-
       <h3>Props Available</h3>
       <p>
         <strong>imgSrc: </strong>This provides the URL for the image which is
@@ -33,7 +35,7 @@ export const AvatarDoc = () => {
         <strong>height: </strong>Height of the image can be used as per
         convenience.
       </p>
-
+      <h3>Examples</h3>
       <div className="docs">
         <ImageAvatar
           imgSrc="https://res.cloudinary.com/sweta-agarwalla/image/upload/v1694326384/photo-1438761681033-6461ffad8d80_ib0x18.jpg"
@@ -46,7 +48,6 @@ export const AvatarDoc = () => {
           name="avatar"
         />
       </div>
-
       <code>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28176%2C218%2C253%2C1%29&t=lucario&wt=sharp&l=jsx&width=851.8000020980835&ds=true&dsyoff=0px&dsblur=34px&wc=true&wa=false&pv=39px&ph=75px&ln=false&fl=1&fm=Hack&fs=13px&lh=122%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253CImageAvatar%250A%2520%2520%2520%2520%2520%2520%2520%2520imgSrc%253D%2522https%253A%252F%252Fres.cloudinary.com%252Fsweta-agarwalla%252Fimage%252Fupload%252Fv1694326384%252Fphoto-1438761681033-6461ffad8d80_ib0x18.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522girl%2520avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520width%253D%25226rem%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520height%253D%25226rem%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253CImageAvatar%250A%2520%2520%2520%2520%2520%2520%2520%2520imgSrc%253D%2522https%253A%252F%252Fres.cloudinary.com%252Fsweta-agarwalla%252Fimage%252Fupload%252Fv1694326534%252Fphoto-1524250502761-1ac6f2e30d43_j0ka56.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A"
@@ -62,7 +63,6 @@ export const AvatarDoc = () => {
       </code>
 
       <h2>Named Avatar</h2>
-
       <h3>Props Available</h3>
       <p>
         <strong>text: </strong>Here, the text to be shown in the avatar is
@@ -84,7 +84,7 @@ export const AvatarDoc = () => {
         <strong>height: </strong>Height of the image can be used as per
         convenience.
       </p>
-
+      <h3>Examples</h3>
       <div className="docs">
         <NamedAvatar
           text="SA"
@@ -94,7 +94,6 @@ export const AvatarDoc = () => {
         />
         <NamedAvatar text="HW" />
       </div>
-
       <code>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28176%2C218%2C253%2C1%29&t=lucario&wt=sharp&l=jsx&width=851.8000020980835&ds=true&dsyoff=0px&dsblur=34px&wc=true&wa=false&pv=39px&ph=75px&ln=false&fl=1&fm=Hack&fs=13px&lh=122%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253CNamedAvatar%250A%2520%2520%2520%2520%2520%2520%2520text%253D%2522SA%2522%250A%2520%2520%2520%2520%2520%2520%2520bgColor%253D%2522rgb%2814%252C%2520108%252C%2520248%29%2522%250A%2520%2520%2520%2520%2520%2520%2520width%253D%25227rem%2522%250A%2520%2520%2520%2520%2520%2520%2520height%253D%25227rem%2520%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253CNamedAvatar%2520text%253D%2522HW%2522%2520%252F%253E%250A%250A"
