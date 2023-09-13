@@ -1,9 +1,11 @@
 import "./Heading.css";
 
-export const Heading = ({ text, selectedClass }) => {
+export const Heading = ({ text, selectedClass, styles }) => {
   return (
     <>
-      <div className={`heading ${selectedClass}`}>{text}</div>
+      <div className={`heading ${selectedClass}`} style={{ ...styles }}>
+        {text}
+      </div>
     </>
   );
 };
