@@ -12,6 +12,11 @@ export const ButtonDoc = () => {
   document.title = "Attire UI | Button";
   return (
     <>
+      <div className="header-text">
+        *Every component has <span className="colored">styles</span> props which
+        will contain all the styles according to the user preferences and it
+        will take the styles in the form of an object.
+      </div>
       <h1>Button</h1>
       <p>
         Using the <span className="colored">button</span> component, users are
@@ -24,17 +29,12 @@ export const ButtonDoc = () => {
         Primary buttons are used where user's attention is required and it
         performs the main actions.
       </p>
-      <h2>Props Available</h2>
+      <h3>Props Available</h3>
       <p>
         <strong>buttonText: </strong>This represents the text which will be
         shown on the button.
       </p>
-      <p>
-        <strong>styles: </strong>This will contain all the styles which will be
-        applied to the button and it will take the styles in the form of an
-        object.
-      </p>
-      <h2>Examples</h2>
+      <h3>Examples</h3>
       <div className="docs">
         <PrimaryButton buttonText="Click Me!" />
         <PrimaryButton
@@ -66,9 +66,9 @@ export const ButtonDoc = () => {
       <p>
         Secondary buttons are used where user's attention is not much required.
       </p>
-      <h2>Props Available</h2>
+      <h3>Props Available</h3>
       <p>Same as Primary Button</p>
-      <h2>Examples</h2>
+      <h3>Examples</h3>
       <div className="docs">
         <SecondaryButton buttonText="Install App" />
         <SecondaryButton
@@ -98,7 +98,7 @@ export const ButtonDoc = () => {
         Link Buttons are used to navigate users to some other page and it will
         contain the link of the web page in which the user is directed.
       </p>
-      <h2>Props Available</h2>
+      <h3>Props Available</h3>
       <p>
         <strong>buttonText: </strong>This represents the text which will be
         shown on the button.
@@ -107,12 +107,7 @@ export const ButtonDoc = () => {
         <strong>linkSrc: </strong>This will contain the URL to which the user is
         navigate.
       </p>
-      <p>
-        <strong>styles: </strong>This will contain all the styles which will be
-        applied to the button and it will take the styles in the form of an
-        object.
-      </p>
-      <h2>Examples</h2>
+      <h3>Examples</h3>
       <div className="docs">
         <LinkButton buttonText="Move to Google" linkSrc="https://google.com/" />
         <LinkButton
@@ -140,16 +135,11 @@ export const ButtonDoc = () => {
         Icon buttons are those which has a icon showing the purpose of the
         button.
       </p>
-      <h2>Props Available</h2>
+      <h3>Props Available</h3>
       <p>
         <strong>icon: </strong>Used to add icon to the component.
       </p>
-      <p>
-        <strong>styles: </strong>This will contain all the styles which will be
-        applied to the button and it will take the styles in the form of an
-        object.
-      </p>
-      <h2>Examples</h2>
+      <h3>Examples</h3>
       <div className="docs">
         <IconButton icon={<ShoppingCart />} />
         <IconButton icon={<Favorite />} styles={{ color: "red" }} />
@@ -173,9 +163,9 @@ export const ButtonDoc = () => {
         Floating-action buttons can be customized by adding the icon of your
         choice. This button will be fixed in the web page.
       </p>
-      <h2>Props Available</h2>
+      <h3>Props Available</h3>
       <p>Same as Icon Buttons.</p>
-      <h2>Examples</h2>
+      <h3>Examples</h3>
       <div className="docs">
         <FloatingButton icon={<EditNote fontSize="large" />} />
       </div>
