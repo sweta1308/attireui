@@ -5,6 +5,11 @@ export const HeadingDoc = () => {
   document.title = "Attire UI | Headings";
   return (
     <>
+      <div className="header-text">
+        *Every component has <span className="colored">styles</span> props which
+        will contain all the styles according to the user preferences and it
+        will take the styles in the form of an object.
+      </div>
       <h1>Headings</h1>
       <p>
         <span className="colored">Headings</span> are available in different
@@ -27,7 +32,6 @@ export const HeadingDoc = () => {
         <strong>selectedClass: </strong>In this, any of the classNames mentioned
         above can be used to get the headings accordingly.
       </p>
-
       <h2>Examples</h2>
       <div className="docs">
         <div>
