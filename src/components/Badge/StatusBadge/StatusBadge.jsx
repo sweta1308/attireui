@@ -1,6 +1,6 @@
 import "./StatusBadge.css";
 
-export const StatusBadge = ({ children, status = "online" }) => {
+export const StatusBadge = ({ children, status = "online", styles }) => {
   let bgColor = "var(--green)";
 
   if (status === "dnd") {
@@ -13,7 +13,7 @@ export const StatusBadge = ({ children, status = "online" }) => {
 
   return (
     <>
-      <div className="badge">
+      <div className="badge" style={{ ...styles }}>
         <span className="badge-child">{children}</span>
         <span className="status" style={{ backgroundColor: bgColor }}></span>
       </div>
