@@ -1,0 +1,28 @@
+.overlay-card {
+  position: relative;
+}
+
+.overlay-card img {
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 250px;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: rgb(104, 99, 99);
+  width: 100%;
+  background-color: rgba(224, 220, 220, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  z-index: 2;
+  margin-left: 25px;
+  padding: 30px 0;
+}
