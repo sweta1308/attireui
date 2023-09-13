@@ -1,0 +1,12 @@
+.text-only {
+  border: 1px solid var(--black-color);
+  text-align: center;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+
+.text-only ul li {
+  list-style: none;
+  color: var(--gray-text);
+  margin-left: -35px;
+}
