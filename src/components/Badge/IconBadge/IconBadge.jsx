@@ -1,9 +1,9 @@
 import "./IconBadge.css";
 
-export const IconBadge = ({ icon, bgColor, count, countColor }) => {
+export const IconBadge = ({ icon, bgColor, count, countColor, styles }) => {
   return (
     <>
-      <div className="badge-icon">
+      <div className="badge-icon" style={{ ...styles }}>
         <span className="badge-icon-child">{icon}</span>
         <span
           className="count"
