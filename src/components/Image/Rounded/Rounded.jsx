@@ -1,6 +1,6 @@
 import "./Rounded.css";
 
-export const RoundedImage = ({ imgSrc, name, width, height }) => {
+export const RoundedImage = ({ imgSrc, name, width, height, styles }) => {
   return (
     <>
       <img
@@ -9,6 +9,7 @@ export const RoundedImage = ({ imgSrc, name, width, height }) => {
         style={{
           width: width ? width : "5rem",
           height: height ? height : "5rem",
+          ...styles,
         }}
         className="rounded-img"
       />
