@@ -12,6 +12,13 @@ import { Heading } from "./Heading/Heading";
 import { ResponsiveImage } from "./Image/Responsive/Responsive";
 import { RoundedImage } from "./Image/Rounded/Rounded";
 import { Typography } from "./Typography/Typography";
+import { VerticalCard } from "./Card/VerticalCard/VerticalCard";
+import { HorizontalCard } from "./Card/HorizontalCard/HorizontalCard";
+import { BadgeCard } from "./Card/BadgeCard/BadgeCard";
+import { DismissCard } from "./Card/DismissCard/DismissCard";
+import { TextOverlayCard } from "./Card/TextOverlayCard/TextOverlayCard";
+import { TextOnlyCard } from "./Card/TextOnlyCard/TextOnlyCard";
+import { ShadowCard } from "./Card/ShadowCard/ShadowCard";
 
 export {
   Alert,
@@ -28,4 +35,11 @@ export {
   ResponsiveImage,
   RoundedImage,
   Typography,
+  VerticalCard,
+  HorizontalCard,
+  BadgeCard,
+  DismissCard,
+  TextOverlayCard,
+  TextOnlyCard,
+  ShadowCard,
 };
