@@ -1,0 +1,27 @@
+.horizontal-card {
+  border: 1px solid var(--black-color);
+  padding: 0 20px;
+  margin: 8px 25px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+}
+
+.horizontal-card img {
+  width: 150px;
+  height: auto;
+  margin: 0 -20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.horizontal-card div {
+  max-width: 200px;
+}
+
+.horizontal-card div p {
+  margin-top: -12px;
+  font-size: 14px;
+  padding: 0 20px;
+}
