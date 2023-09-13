@@ -2,8 +2,14 @@
 import { Typography } from "../../components";
 
 export const TypographyDoc = () => {
+  document.title = "Attire UI | Typography";
   return (
     <>
+      <div className="header-text">
+        *Every component has <span className="colored">styles</span> props which
+        will contain all the styles according to the user preferences and it
+        will take the styles in the form of an object.
+      </div>
       <h1>Typography</h1>
       <p>
         <span className="colored">Typography</span> is the differences between
@@ -27,7 +33,7 @@ export const TypographyDoc = () => {
       <h2>Text Decorations</h2>
       <p>We can apply different kind of text decorations.</p>
 
-      <h2>Props Available</h2>
+      <h3>Props Available</h3>
       <p>
         <strong>text: </strong>This will contain the main text.
       </p>
@@ -43,7 +49,7 @@ export const TypographyDoc = () => {
         decorations to the text.
       </p>
 
-      <h2>Examples</h2>
+      <h3>Examples</h3>
       <div className="docs">
         <div>
           <Typography
