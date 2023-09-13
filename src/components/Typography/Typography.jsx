@@ -1,6 +1,12 @@
 import "./Typography.css";
 
-export const Typography = ({ text, textSizeClass, color, textDecoration }) => {
+export const Typography = ({
+  text,
+  textSizeClass,
+  color,
+  textDecoration,
+  styles,
+}) => {
   return (
     <>
       <div
@@ -8,6 +14,7 @@ export const Typography = ({ text, textSizeClass, color, textDecoration }) => {
         style={{
           color: color ? color : "",
           textDecoration: textDecoration ? textDecoration : "",
+          ...styles,
         }}
       >
         {text}
